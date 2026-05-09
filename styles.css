@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+
+
+*{
+    font-family: 'SN Pro', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center;     /* vertical */
+  height: 100vh;           /* full viewport height */
+  margin: 0;   
+  background-color: #fff;            /* remove default body margin */
+}
+
+
+h1{
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    color: #adb5bd;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 15px;
+    font-weight: 100;
+    text-transform: uppercase;
+
+}
+
+.score_tab{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.players_section{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 90px;
+}
+
+
+.player_button {
+    outline: none;
+    border: none;
+    border-radius: 10px 25px;
+    padding: 10px 20px;       /* increased padding for size */
+    font-size: 16px;          /* larger text */
+    background-color: #e5e5e5;
+    color: white;
+    cursor: pointer;          /* adds pointer on hover */
+}
+
+
+#restart{
+    border: 1px solid gray;
+    background-color: white;
+    border-radius: 10px;
+    padding: 1px 20px;
+    display: flex;
+    align-items: center;
+}
+
+#restart p{
+    font-size: 10px;
+    color: gray;
+}
+
+span{
+    font-size: 100px;
+}
